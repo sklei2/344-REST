@@ -15,24 +15,32 @@ form {
 	background-color: #ffffff;
 }
 
-.link-container {
+.app-content {
+	display: flex;
+	justify-content: space-between;
+}
 
+#zipcode-selection {
+	width:15%;
+	display:flex;
+	align-items: center;
+}
+
+#weather-display {
+	width:80%;
+}
+
+.link-container {
+	display: flex;
+	flex-direction: column;
+	height:80%;
+	width: 100%;
+	overflow-y: scroll;
 }
 	.link-container a {
-		display: block;
+		text-decoration: none;
+		border-bottom: 1px solid #cccccc;
+		padding-bottom: .1em;
+		padding-top: .1em;
+		text-align: center;
 	}
-
-.form-display {
-	display: flex;
-	margin-bottom: 2%;
-}
-	.form-display label {
-		min-width: 15%;
-		max-width: 15%;
-	}
-
-	.form-display div {
-		margin-right: 2%;
-	}
-
-}

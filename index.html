@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/site.css">
 		<script src="js/site.js"></script>
-		<script src="js/APIMock.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="container content">
@@ -22,9 +22,17 @@
 				</div>
 				<div id="weather-display">
 					<h3> Weather Report </h3>
-					<p id="Temperature"></p>
-					<p id="Humidity"></p>
-					<p id="Weather"></p>
+					<div>
+						<div>
+							<p id="name"> </p>
+							<p id="forecast"> </p>
+						</div>
+						<div>
+							<img id="image"/>
+						</div>
+					</div>
+					
+					
 				</div>		
 			</div>			
 			<footer>

@@ -24,7 +24,14 @@ footer {
 
 #weather-display {
 	width:80%;
+	border: 1px solid black;
+	min-height: 400px;
+	max-height: 400px;
 }
+
+	#weather-display h3 {
+		text-align: center;
+	}
 
 .link-container {
 	display: flex;
